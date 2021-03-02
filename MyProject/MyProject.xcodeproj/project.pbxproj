@@ -14,7 +14,7 @@
 		D8A5297725EE3244003D82CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A5297625EE3244003D82CE /* Assets.xcassets */; };
 		D8A5297A25EE3244003D82CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A5297825EE3244003D82CE /* LaunchScreen.storyboard */; };
 		D8A5297D25EE3244003D82CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5297C25EE3244003D82CE /* main.m */; };
-		D8A5298725EE335F003D82CE /* TCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5298625EE335F003D82CE /* TCPerson.m */; };
+		D8A5298D25EE36DA003D82CE /* TCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5298C25EE36DA003D82CE /* TCPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		D8A5297925EE3244003D82CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A5297B25EE3244003D82CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A5297C25EE3244003D82CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8A5298525EE335F003D82CE /* TCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPerson.h; sourceTree = "<group>"; };
-		D8A5298625EE335F003D82CE /* TCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPerson.m; sourceTree = "<group>"; };
+		D8A5298B25EE36DA003D82CE /* TCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPerson.h; sourceTree = "<group>"; };
+		D8A5298C25EE36DA003D82CE /* TCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		D8A5296925EE321E003D82CE /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
-				D8A5298425EE3294003D82CE /* MyKuangJia */,
+				D8A5298A25EE36DA003D82CE /* MyKuangJia */,
 				D8A5296A25EE321E003D82CE /* AppDelegate.h */,
 				D8A5296B25EE321F003D82CE /* AppDelegate.m */,
 				D8A5296D25EE321F003D82CE /* SceneDelegate.h */,
@@ -80,14 +80,14 @@
 			path = MyProject;
 			sourceTree = "<group>";
 		};
-		D8A5298425EE3294003D82CE /* MyKuangJia */ = {
+		D8A5298A25EE36DA003D82CE /* MyKuangJia */ = {
 			isa = PBXGroup;
 			children = (
-				D8A5298525EE335F003D82CE /* TCPerson.h */,
-				D8A5298625EE335F003D82CE /* TCPerson.m */,
+				D8A5298B25EE36DA003D82CE /* TCPerson.h */,
+				D8A5298C25EE36DA003D82CE /* TCPerson.m */,
 			);
 			path = MyKuangJia;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A5298725EE335F003D82CE /* TCPerson.m in Sources */,
+				D8A5298D25EE36DA003D82CE /* TCPerson.m in Sources */,
 				D8A5297225EE321F003D82CE /* ViewController.m in Sources */,
 				D8A5296C25EE321F003D82CE /* AppDelegate.m in Sources */,
 				D8A5297D25EE3244003D82CE /* main.m in Sources */,
