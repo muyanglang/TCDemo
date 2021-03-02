@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "TCPerson.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    TCPerson *person = [[TCPerson alloc]init];
+    person.name = @"小芳";
+    [person eat];
+    [person run];
 }
 
 
