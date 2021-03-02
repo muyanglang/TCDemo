@@ -12,5 +12,7 @@
 - (void)eat{
     NSLog(@"%@正在吃。。。。。。",_name);
 }
-
+- (void)run{
+    NSLog(@"%@正在跑。。。。。。",_name);
+}
 @end

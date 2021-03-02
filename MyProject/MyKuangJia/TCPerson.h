@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** <#annotation#> */
 @property (nonatomic, copy) NSString *name;
 - (void)eat;
+- (void)run;
 @end
 
 NS_ASSUME_NONNULL_END
